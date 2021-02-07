@@ -26,6 +26,7 @@ import axios from 'axios'
 import {router} from '../router'
 import EventBus from './EventBus'
 
+
 export default{
     data(){
         return {
@@ -36,13 +37,15 @@ export default{
 
     methods:{
         login() {
-            axios.post('/api/login',
+            axios.post('api/login',
                 {
                     email:this.email,
                     password:this.password,
                 })
                 .then((res) => {
                     localStorage.setItem('usertoken', res.data.token)
+                    this.$emit("authenticated", true);
+
                     this.email = ''
                     this.password = ''
                     router.push({name: 'Home'})

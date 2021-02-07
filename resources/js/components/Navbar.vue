@@ -15,10 +15,10 @@
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/">home</router-link>
+                        <router-link  class="nav-link" to="/blogPost">Post</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/profile">home</router-link>
+                        <router-link class="nav-link" to="/profile">Profile</router-link>
                     </li>
                     <li v-if="auth==''" class="nav-item">
                         <router-link class="nav-link" to="/login">Login</router-link>
@@ -29,8 +29,8 @@
                     <li v-if="auth=='loggedin'" class="nav-item">
                         <router-link class="nav-link" to="/profile">Profile</router-link>
                     </li>
-                    <li v-if="auth=='loggedin'" class="nav-item">
-                        <router-link class="nav-link" href="">Logout</router-link>
+                    <li v-if="authenticated" class="nav-item">
+                        <router-link class="nav-link" to="/login" v-on:click.native="logout()" replace>Logout</router-link>
                     </li>
                 </ul>
 
@@ -42,24 +42,29 @@
 
 <script>
 import EventBus from './EventBus'
+
 export default {
     data() {
         return {
+            authenticated: false,
             auth: '',
             user: '',
         }
     },
 
     methods:{
+        setAuthenticated(status) {
+            this.authenticated = status;
+        },
         logout() {
             localStorage.removeItem('usertoken')
         }
     },
-
     mounted() {
-        EventBus.$on('logged-in', status => {
-            this.auth - status
-        })
+        this.authenticated=true;
+        if(!this.authenticated) {
+            this.$router.replace({ name: "Login" });
+        }
     }
 }
 </script>

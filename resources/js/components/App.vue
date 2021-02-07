@@ -12,6 +12,17 @@ export default {
     name: 'App',
     components: {
         'Navbar': Navbar
+    },
+    data() {
+        return {
+
+        }
+    },
+    mounted() {
+
+    },
+    methods: {
+
     }
 }
 </script>
