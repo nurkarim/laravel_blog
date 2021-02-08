@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8e422e-95d5-4002-bf5a-7c0fb83abfbc" name="Default Changelist" comment="file update">
-      <change afterPath="$PROJECT_DIR$/resources/js/components/BlogPost.vue" afterDir="false" />
+    <list default="true" id="7f8e422e-95d5-4002-bf5a-7c0fb83abfbc" name="Default Changelist" comment="login solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/Hello.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Hello.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/js/components/Navbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/Navbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +177,8 @@
       <workItem from="1612420536962" duration="17000000" />
       <workItem from="1612584354637" duration="30000" />
       <workItem from="1612599792257" duration="10088000" />
-      <workItem from="1612669896072" duration="8267000" />
+      <workItem from="1612669896072" duration="9158000" />
+      <workItem from="1612782973934" duration="1988000" />
     </task>
     <task id="LOCAL-00001" summary="file update">
       <created>1612610251716</created>
@@ -213,6 +207,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="file update" />
-    <option name="LAST_COMMIT_MESSAGE" value="file update" />
+    <MESSAGE value="login solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="login solved" />
   </component>
 </project>

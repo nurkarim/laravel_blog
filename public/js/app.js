@@ -2136,9 +2136,53 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
+  metaInfo: function metaInfo() {
+    return {
+      title: 'Tutorial It Language Site | See Demo Example - laradevsbd.com',
+      meta: [{
+        name: 'description',
+        content: 'laradevsbd website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo'
+      }, {
+        property: 'og:title',
+        content: 'Epiloge'
+      }, {
+        property: 'og:site_name',
+        content: 'Epiloge'
+      }, {
+        property: 'og:description',
+        content: 'laradevsbd website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo'
+      }, {
+        property: 'og:type',
+        content: 'profile'
+      }, {
+        property: 'og:url',
+        content: 'https://epiloge.com/@'
+      }, {
+        property: 'og:image',
+        content: '-main.jpg'
+      }]
+    };
+  },
   mounted: function mounted() {
-    console.log('Component mounted.');
+    document.title("Tutorial It Language Site | See Demo Example - laradevsbd.com");
   }
 });
 
@@ -44301,7 +44345,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "row justify-content-center" }, [
         _c("div", { staticClass: "col-md-8" }, [
           _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("Hello")]),
+            _c("div", { staticClass: "card-header" }, [_vm._v("ghfgh")]),
             _vm._v(" "),
             _c("div", { staticClass: "card-body" }, [
               _vm._v(
@@ -44342,19 +44386,97 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
+    return _c("div", { staticClass: "container mt-5" }, [
       _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [_vm._v("Hello")]),
-            _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
+        _c(
+          "div",
+          { staticClass: "jumbotron p-3 p-md-5 text-white rounded bg-dark" },
+          [
+            _c("div", { staticClass: "col-md-6 px-0" }, [
+              _c("h1", { staticClass: "display-4 font-italic" }, [
+                _vm._v("Title of a longer featured blog post")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "lead my-3" }, [
+                _vm._v(
+                  "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents."
+                )
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "lead mb-0" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "text-white font-weight-bold",
+                    attrs: { href: "#" }
+                  },
+                  [_vm._v("Continue reading...")]
+                )
+              ])
             ])
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-8" }, [
+          _c("div", { staticClass: "row" }, [
+            _c(
+              "div",
+              { staticClass: "card flex-md-row mb-4 box-shadow h-md-250" },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "card-body d-flex flex-column align-items-start"
+                  },
+                  [
+                    _c(
+                      "strong",
+                      { staticClass: "d-inline-block mb-2 text-success" },
+                      [_vm._v("Design")]
+                    ),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "mb-0" }, [
+                      _c(
+                        "a",
+                        { staticClass: "text-dark", attrs: { href: "#" } },
+                        [_vm._v("Post title")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "mb-1 text-muted" }, [
+                      _vm._v("Nov 11")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "card-text mb-auto" }, [
+                      _vm._v(
+                        "This is a wider card with supporting text below as a natural lead-in to additional content."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Continue reading")
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("img", {
+                  staticClass: "card-img-right flex-auto d-none d-md-block",
+                  staticStyle: { width: "200px", height: "250px" },
+                  attrs: {
+                    "data-src": "holder.js/200x250?theme=thumb",
+                    alt: "Thumbnail [200x250]",
+                    src:
+                      "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22200%22%20height%3D%22250%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20200%20250%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177815e7ccc%20text%20%7B%20fill%3A%23eceeef%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A13pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177815e7ccc%22%3E%3Crect%20width%3D%22200%22%20height%3D%22250%22%20fill%3D%22%2355595c%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2256.1953125%22%20y%3D%22131%22%3EThumbnail%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+                    "data-holder-rendered": "true"
+                  }
+                })
+              ]
+            )
           ])
-        ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" })
       ])
     ])
   }
@@ -44498,7 +44620,7 @@ var render = function() {
     { staticClass: "navbar navbar-expand-md navbar-light bg-white shadow-sm" },
     [
       _c("div", { staticClass: "container" }, [
-        _c("a", { staticClass: "navbar-brand" }, [
+        _c("a", { staticClass: "navbar-brand", attrs: { href: "/" } }, [
           _vm._v("\n            Laradevs\n        ")
         ]),
         _vm._v(" "),

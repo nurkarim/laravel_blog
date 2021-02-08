@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
+    <title>Laradevsbd - Tutorial It Language Site | See Demo Example - laradevsbd.com</title>
+    <meta name="description" content="ItSolutionstuff website focuses on all web language and framework tutorial PHP, Laravel, Codeigniter, Nodejs, API, MySQL, AJAX, jQuery, JavaScript, Demo">
+    <meta name="keywords" content="it solution stuff of it programming language, php, laravel 5, jquery, javascript, mysql, git, html, css, MySQL, HTML, CSS, git, AJAX, bootstrap,  jQuery, JavaScript, Designing, Demo, itsolutionstuff.">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="api-base-url" content="{{ url('http://localhost/laravel_blog') }}" />
     <title>{{ config('app.name', 'Laravel') }}</title>
